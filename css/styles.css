@@ -219,12 +219,10 @@ article {
 }
 
 .formulario {
-  text-align: center;
-  margin-left: 200px;
-  margin-right: 200px;
   background-image: url(../Img/fondo3.jpg);
   border: solid 4px black;
   border-radius: 4px;
+  padding: 1rem;
 }
 
 .nuestroServicio {
@@ -240,21 +238,23 @@ article {
 
 .delivery0 {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
 }
 
 .delivery {
   border: solid 4px black;
   border-radius: 4px;
-  width: 200px;
-  margin-left: 200px;
+  max-width: 20rem;
+  margin: 1rem;
+ 
 }
 
 .maps {
   text-align: center;
   font-size: 2rem;
-  margin-top: 2rem;
-  margin-left: 1.5rem;
-  margin-right: 2rem;
+  height: auto; 
   border: solid 0.5rem black;
   border-radius: 1rem;
   background-image: url(../Img/fondo3.jpg);
